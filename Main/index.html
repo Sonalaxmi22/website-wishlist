@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ecommerce website</title>
+  <script src="https://kit.fontawesome.com/37a0feaa22.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+
+  <!-- navigation bar 1 -->
+
+  <nav class="navbar1">
+    <div class="navbar1div1">
+      <i class="fa-solid fa-bars" style="color: #000000;"></i>
+      <h1>PRODUCTS</h1>
+    </div>
+    <div class="navbar1div2">
+      <h3>Tina Renn Clausen</h3>
+      <div class="circle">
+        <h3>TC</h3>
+      </div>
+      <i class="fa-solid fa-bell"></i>
+    </div>
+  </nav>
+
+  <!-- navigation bar 2 -->
+
+  <nav class="navbar2">
+    <div class="navbar2div1">
+      <i class="fa-solid fa-magnifying-glass" style="color: white;"></i>
+      <select id="section">
+        <option value="men">Men</option>
+        <option value="women">Women</option>
+        <option value="kids">Kids</option>
+        <option selected value="section">SECTION</option>
+      </select>
+      <select id="Collections">
+        <option value="kurta">Kurta</option>
+        <option value="trousers">Trousers</option>
+        <option value="shirt">Shirt</option>
+        <option selected value="collections">COLLECTIONS</option>
+      </select>
+      <select id="Brand">
+        <option value="BIBA">BIBA</option>
+        <option value="ZUBA">ZUBA</option>
+        <option value="LP">LP</option>
+        <option value="roadster">Roadster</option>
+        <option value="uspolo">U.S.Polo</option>
+        <option selected value="brand">BRAND</option>
+      </select>
+      <select id="MATERIAL">
+        <option value="cotton">Cotton</option>
+        <option value="polyester">polyester</option>
+        <option value="silk">sik</option>
+        <option selected value="MATERIAL">MATERIAL</option>
+      </select>
+      <select id="size">
+        <option value="S">S</option>
+        <option value="M">M</option>
+        <option value="L">L</option>
+        <option selected value="size">SIZE</option>
+      </select>
+      
+    </div>
+    <div class="navbar2div2">
+      <label for="sortby" class="sortby">Sort by:</label>
+      <select id="sortby">
+        <option selected value="recommended">Recommended</option>
+        <option value="htl">Price: High to Low</option>
+        <option value="lth">Price: Low to High</option>
+      </select>
+      
+      <a class="navbar-heart" id="heart-icon" href="./wishlist.html"><i class="fa-solid fa-heart"
+        style="color: #da1010; "></i></a>
+    </div>
+    
+  </nav>
+  
+  <div class="image-container">
+    <!-- <span class="fa-regular fa-heart" id="iconCard" onclick="addToWishlist()"></span> -->
+  </div>
+
+
+  
+  <script src="./script.js">
+  </script>
+
+</body>
+
+</html>
